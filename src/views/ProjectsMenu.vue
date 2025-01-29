@@ -10,7 +10,7 @@
     </div>
     <ul class="works-list">
       <li v-for="work in works" :key="work.id" class="work-list-item">
-        <router-link class="work-list-item-link" :to="`/projects#${work.hash}`" :key="$route.fullpath">
+        <router-link class="work-list-item-link" :to="`/projects#${work.hash}`" :key="$route.fullPath">
         <h4 class="work-list-item-name uppercase">{{ work.name }}</h4>
         <h6 class="work-list-item-subtitle">{{ work.subtitle }}</h6>
       </router-link>

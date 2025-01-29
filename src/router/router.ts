@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import LandingComponent from '@/views/LandingComponent.vue';
+import LandingComponent from '../views/LandingComponent.vue';
 const routes = [
   { 
-    ath: '/',
+    path: '/',
     name: 'Landing',
     component: LandingComponent
   },
@@ -23,6 +23,8 @@ const router = createRouter({
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
+      console.log(from);
+      
       return { el: to.hash, top: 50}
     } else {
       return savedPosition || { top: 0}

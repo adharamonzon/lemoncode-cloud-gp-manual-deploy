@@ -15,7 +15,7 @@
             <p class="aboutMe-text" style="margin-bottom: 15px">En esta nueva etapa como programadora he aprendido a hacer páginas web sencillas basadas en HTML y CSS con diseño responsive, pero también he aprendido a desarrollar aplicaciones web más complejas maquetándolas al pixel a través de diseños y utilizando Sass y la nomenclatura BEM, utilizando JavaScript y frameworks como React o Angular para dotarlas de funcionalidad. </p>
             <CVComponent />
             <div class="btn-container">
-              <router-link class="btn uppercase" to="/aboutMeDetail" :key="$route.fullpath">Más sobre mi</router-link>
+              <router-link class="btn uppercase" to="/aboutMeDetail" :key="$route.path">Más sobre mi</router-link>
             </div>
           </div>
         </section>
