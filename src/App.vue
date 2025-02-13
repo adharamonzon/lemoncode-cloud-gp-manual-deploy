@@ -17,7 +17,9 @@ import { defineComponent } from 'vue';
 <template>
   <!-- <LandingComponent /> -->
  <!--  <AboutMeDetail /> -->
+
   <router-view></router-view>
+  <div>Hola</div>
   <FooterComponent />
 </template>
 
