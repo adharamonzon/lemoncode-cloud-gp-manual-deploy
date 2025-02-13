@@ -19,7 +19,6 @@ import { defineComponent } from 'vue';
  <!--  <AboutMeDetail /> -->
 
   <router-view></router-view>
-  <div>Hola</div>
   <FooterComponent />
 </template>
 
