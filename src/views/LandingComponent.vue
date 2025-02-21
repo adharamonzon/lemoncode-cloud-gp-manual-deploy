@@ -1,5 +1,4 @@
 <template>
-  <div>Hola</div>
   <HeaderComponent/>
   <AboutMeComponent />
   <ProjectsMenu />
